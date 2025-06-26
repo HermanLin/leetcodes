@@ -4,7 +4,7 @@
 
 **Medium**
 
-**Topics**: 
+**Topics**: Greedy, Hash Table, Stack, String
 
 You are given a string `s` and a robot that currently holds an empty string `t`. Apply one of the following operations until `s` and `t` **are both empty**:
 
