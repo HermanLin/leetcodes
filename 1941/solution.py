@@ -1,6 +1,8 @@
+from collections import Counter
+
 class Solution:
     def areOccurrencesEqual(self, s: str) -> bool:
-        counts = {}
+        '''counts = {}
 
         for c in s:
             if c in counts:
@@ -14,9 +16,12 @@ class Solution:
             if counts[k] != frequency:
                 return False
 
-        return True
+        return True'''
         
         '''return len(set(counts.values())) == 1'''
+
+        # one-liner!
+        return len(set(Counter(s).values())) == 1
     
 sol = Solution()
 print(sol.areOccurrencesEqual('abacbc'))
