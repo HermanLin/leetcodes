@@ -12,6 +12,6 @@ set foldername=%1
 mkdir "%foldername%"
 
 :: Create the Python file and write initial code
-echo. >> "%foldername%\solution.py"
-echo. >> "%foldername%\solution.py"
+echo.>> "%foldername%\solution.py"
+echo.>> "%foldername%\solution.py"
 echo sol = Solution() >> "%foldername%\solution.py"
